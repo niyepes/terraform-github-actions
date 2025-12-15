@@ -25,7 +25,7 @@ jobs:
             terraform fmt
             terraform validate
 
-        - name: Aplicar Terraform
+        - name: Planear Terraform
           run: |
             terraform plan
 
