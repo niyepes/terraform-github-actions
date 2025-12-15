@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "test_bucket" {
-  bucket = "my-unique-tf-bucket-123456"
+  bucket = "my-unique-tf-bucket-for-ny-123456"
 
     tags = {
         Name        = "MyTestBucket"
