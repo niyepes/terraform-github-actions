@@ -27,6 +27,10 @@ jobs:
 
         - name: Planear Terraform
           run: |
-            terraform plan
+            terraform plan -out tfplan
+
+        - name: Aplicar Terraform
+          run: |
+            terraform apply tfplan
 
 
